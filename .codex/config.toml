@@ -1,0 +1,11 @@
+model = "gpt-5-codex-mini"
+model_reasoning_summary_format = "experimental"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+model_reasoning_effort = "medium"
+
+[features]
+web_search_request = true
+
+[tui]
+notifications = true

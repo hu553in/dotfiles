@@ -1,0 +1,22 @@
+# ...other values...
+
+[user]
+	name = Ruslan Khasanshin
+	email = r.m.khasanshin@gmail.com
+
+[core]
+	autocrlf = input
+	quotepath = off
+	safecrlf = warn
+	editor = nano -w
+
+[pull]
+	rebase = false
+
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:~/Work/"]
+    path = ~/Work/.gitconfig
+
+# ...other values...
