@@ -1,11 +1,14 @@
-model = "gpt-5-codex-mini"
-model_reasoning_summary_format = "experimental"
+model = "gpt-5.1-codex-max"
 approval_policy = "never"
 sandbox_mode = "danger-full-access"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "xhigh"
 
 [features]
 web_search_request = true
+streamable_shell = true
 
 [tui]
 notifications = true
+
+[notice]
+"hide_gpt-5.1-codex-max_migration_prompt" = true
