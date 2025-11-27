@@ -1,0 +1,79 @@
+{
+    "[dockercompose]": {
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "asciidoc.extensions.enableKroki": true,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+    },
+    "editor.cursorBlinking": "smooth",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.mouseWheelZoom": true,
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "explorer.sortOrder": "type",
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "go.toolsManagement.autoUpdate": true,
+    "markdown.extension.toc.updateOnSave": false,
+    "prettier.requireConfig": true,
+    "redhat.telemetry.enabled": false,
+    "search.quickOpen.includeSymbols": true,
+    "search.showLineNumbers": true,
+    "terminal.integrated.scrollback": 99999,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.enableExperiments": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none"
+}
